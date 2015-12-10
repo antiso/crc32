@@ -9,8 +9,8 @@ Copy `target\crc32-0.0.1-SNAPSHOT.jar` into Hive directory. Start Hive from main
 Then execute command:
 ```
 hive> create function crc32 as 'org.apache.hive.test.udf.SampleCRC32' using jar 'crc32-0.0.1-SNAPSHOT.jar'
-Added [crc32.jar] to class path
-Added resources: [crc32.jar]
+Added [crc32-0.0.1-SNAPSHOT.jar] to class path
+Added resources: [crc32-0.0.1-SNAPSHOT.jar]
 OK
 Time taken: 0.494 seconds
 ```
