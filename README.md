@@ -41,6 +41,14 @@ Total MapReduce CPU Time Spent: 0 msec
 OK
 Time taken: 2.492 seconds
 ```
+This will create HDFS structure:
+```
+C:\USER
+└───hive
+    └───warehouse
+        └───names
+```
+
 Now check new function:
 ```
 hive> select crc32(name) from names;
