@@ -41,7 +41,7 @@ Total MapReduce CPU Time Spent: 0 msec
 OK
 Time taken: 2.492 seconds
 ```
-Now you check new function:
+Now check new function:
 ```
 hive> select crc32(name) from names;
 OK
